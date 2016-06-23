@@ -1,0 +1,44 @@
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #EFEFEF;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid #666666;
+}
+p {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #EFEFEF;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid #666666;
+}
+.heavy {
+	font-weight: bold;
+	color: #000000;
+}
+
+.taskTable{
+	padding: 10px;
+	margin: auto;
+	background-color: #FFFF99;
+}
+
+a:link {
+	color: #990000;
+	text-decoration: none;
+}
+a:hover {
+	color: #006633;
+	text-decoration: underline;
+}
+a:visited {
+	color: #660099;
+	text-decoration: none;
+}
