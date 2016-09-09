@@ -1,0 +1,15 @@
+---
+layout: default
+title:  "Dr. Paul J. Willis, D.D.S."
+category: staff
+---
+<div class="col span-2 empty"></div>
+<div class="col span-2">
+<img src="/assets/img/bios/willis2.jpg" alt="{{page.title}}" class="bio"/>
+</div>
+<div class="col span-6">
+<h3>{{page.title}}</h3>
+<p>After completing his B.S. degree in chemical engineering at the University of Illinois – Urbana, Dr. Willis was involved in research in qualitative analysis in the Army for two years.  He entered dental school at the University of Illinois Medical Center and graduated in 1967.  He then opened a dental office on the north side of Chicago and became a faculty member at the University of Illinois where he taught operative dentistry.  When the College of Dentistry established a comprehensive program for senior dental students, Dr. Willis became a member of the teaching group.  He taught at the school for 30 years.  He also worked part-time in the special Cleft Palate Center where patients who have facial and dental deformities are treated.  During his career as a general dentist in both a private practice and university setting, Dr. Willis has had extensive experience in implant reconstruction, cosmetic dentistry and minor orthodontic treatment.</p>
+<p>In Dr. Willis' spare time he enjoys spending time with his family, which includes 11 grandchildren. He also likes to stay active playing golf and tennis whenever he has the opportunity.</p>
+</div>
+<div class="col span-2 empty"></div>

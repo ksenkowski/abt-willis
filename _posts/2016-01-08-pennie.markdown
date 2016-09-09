@@ -1,0 +1,13 @@
+---
+layout: default
+title:  "Penni – Receptionist"
+category: staff
+---
+<div class="col span-2 empty"></div>
+<div class="col span-2">
+<img src="/assets/img/bios/penni.jpg" alt="{{page.title}}" class="bio"/>
+</div>
+<div class="col span-6">
+<h3>{{page.title}}</h3>
+<p>Penni is another one of our friendly faces at the front desk. She has enjoyed working in the field of dentistry for over 18 years, both in general dentistry and orthodontics. She has been married for 32 years and has 2 daughters and a golden retriever. In her spare time she enjoys travel, playing tennis, reading and exercising.</p></div>
+<div class="col span-2 empty"></div>

@@ -1,0 +1,141 @@
+header{
+	margin: 0 auto;
+	padding: 0 em(10px);
+	min-height: 150px;
+	max-width: 100%;
+	background:$white;	
+	@include breakpoint(tablet){
+		padding:0;		
+	}	
+	h1{
+		margin:10px 0px 0px;
+		font-size:em(52px);
+		letter-spacing:3px;
+	}
+	h2{
+		margin:0;
+		font-size:em(16px);
+		letter-spacing:3px;
+	}
+	.call-to-action{
+		position:absolute;
+		top: 0; 
+		right: 0; 
+		border: 0;
+	}
+	.logo{
+		display:none;
+		@include breakpoint(portrait){
+			display:block;		
+		}	
+		
+	}
+}
+footer{
+	margin: 0px auto;
+	padding:em(30px) em(10px) em(50px);
+	width: 100%;
+	background:$primary-light;
+	font-family: $secondary-stack;
+	text-shadow: 0 1px 0 white;
+	@include breakpoint(mobile){
+		padding:em(30px) 0 em(50px);
+	}
+	img{
+		width:auto;
+		&.ada{
+			width:85px;
+			height:85px;
+			display:block;
+			margin:0 auto;
+		}
+	}
+	h2{
+		margin:10px 0px 10px 0px;
+		font-size:20px;
+	}
+	.copyright{
+		font-family: $primary-stack;
+		margin:0;
+		padding:em(10px);
+		font-size:em(12px);
+	}
+	.contact{
+		float:left;
+		width:310px;
+		padding:5px 5px 5px 10px;
+		p{
+			font-size:15px;
+			color:$primary-color;
+		}
+		img{
+			padding-right: 8px;
+			position: relative;
+			top: -2px;
+		}
+	}
+	.map{
+		float:left;
+		width:310px;
+		padding:5px 5px 5px 10px;
+	}
+	.dentist{
+		float:left;
+		max-width:310px;
+		min-width:100%;
+		padding:5px 5px 5px 10px;
+	}
+}
+article {
+	p{
+		margin:em(10px) 0 em(15px);
+	}
+	h3{
+		margin:em(10px) 0 em(5px);
+		
+	}
+	.hero, .alt-hero{
+		background:$primary-light;
+		padding:em(5px) em(10px) em(20px);
+		@include breakpoint(tablet){
+			padding:em(5px) 0 em(20px);
+		}
+		img{
+			background:$white;
+			padding:em(10px);
+			-moz-box-shadow: 0 0 5px $charcoal;
+			-webkit-box-shadow: 0 0 5px $charcoal;
+			box-shadow: 0 0 5px $charcoal;
+			margin:em(15px) 0 0;
+		}
+	}
+	.alt-hero{
+		background:$white;
+	}
+	.home{
+		background:$off-white;
+		padding:em(30px) em(10px) em(50px);
+		@include breakpoint(mobile){
+			padding:em(30px) 0 em(50px);
+		}
+		.contact-list{
+			img{
+				width:auto;
+			}
+		}
+	}
+	img{
+		&.align-right{
+			margin: 0 0 em(15px) em(15px);
+			float:right; 
+		}
+		&.align-left{
+			float:left; 
+			margin: 0px em(15px)em(15px) 0px;
+		}
+		&.bio{
+			max-width:150px;
+		}
+	}
+}
+

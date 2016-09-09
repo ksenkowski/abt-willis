@@ -1,0 +1,13 @@
+---
+layout: default
+title:  "Lynnie – Dental Assistant"
+category: staff
+---
+<div class="col span-2 empty"></div>
+<div class="col span-6">
+<h3>{{page.title}}</h3>
+<p>Lynnie has been a dental assistant for 11 years. She enjoys building great relationships with patients and making their dental visit comfortable and fun. She has a daughter Sophia. When not at work she enjoys spending time with her fiance and family.</p></div>
+<div class="col span-2">
+<img src="/assets/img/bios/lynnie.jpg" alt="{{page.title}}" class="bio"/>
+</div>
+<div class="col span-2 empty"></div>

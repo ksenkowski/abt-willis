@@ -1,0 +1,83 @@
+/*
+Core button styles for the CM Brand
+
+.btn				- Core styles for buttons.
+:hover				- Hover swaps the black and white.
+&.btn-primary		- White on black color.
+&.btn-primary:hover	- Swaps to primary brand color.
+
+Styleguide 0.1
+*/
+.btn {
+  background-color: $off-white;
+  color: $dark-gray;
+  border: none;
+  border-radius: 0;
+  font-family: $primary-stack;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: em(1px);
+  padding: em(19px, 12px) em(56px, 12px);
+  text-transform: uppercase;
+  font-size: em(14px);
+  @include transition(all 0.2s ease-in);
+  
+
+	&:hover{
+	  background-color: $black;
+	  color: $white;
+	}
+	  &.btn-primary {
+	    background-color: $black;
+	    border: 1px solid $black;
+	    color: $white;
+		&:hover {
+		  background-color: $primary-color;
+		  border: 1px solid $primary-color;
+		  color: $white;
+		}
+	
+	  }
+	  &.logo{
+		  background:transparent;
+		  padding:0;
+		  img{
+			  padding:em(4px) 0;
+			  background-color:$black;
+		  }
+	  }
+  &.btn-arrow-down {
+    position: absolute;
+    height: 18px;
+    width: 32px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: block;
+    cursor: pointer;
+    bottom: 30px;
+
+    .line {
+      width: 20px;
+      height: 4px;
+      top: 6px;
+      position: absolute;
+      background-color: $charcoal;
+    }
+
+    .left {
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865475, M12=-0.7071067811865477, M21=0.7071067811865477, M22=0.7071067811865475, SizingMethod='auto expand')";
+      left: 0;
+    }
+    .right {
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865483, M12=0.7071067811865467, M21=-0.7071067811865467, M22=0.7071067811865483, SizingMethod='auto expand')";
+      right: 0;
+    }
+  }
+  
+}
+

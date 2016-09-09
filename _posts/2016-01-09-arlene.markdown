@@ -1,0 +1,14 @@
+---
+layout: default
+title:  "Arlene – Receptionist"
+category: staff
+---
+<div class="col span-2 empty"></div>
+<div class="col span-6">
+<h3>{{page.title}}</h3>
+<p>Arlene is one of the first smiling faces you will see when you walk into the office. She worked for 25 years as an administrative assistant for an investment firm before retiring. Seeking to keep active, she took a part time position with the practice and has enjoyed all ten years. In Arlene's spare time she enjoys spending time with her son's twins as their "Gramie", playing cards, taking exercise classes, and going to the theatre with friends.</p>
+</div>
+<div class="col span-2">
+<img src="/assets/img/bios/arlene.jpg" alt="{{page.title}}" class="bio"/>
+</div>
+<div class="col span-2 empty"></div>

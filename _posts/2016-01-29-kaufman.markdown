@@ -1,0 +1,14 @@
+---
+layout: default
+title:  "Dr. Ashley Kauffman, D.D.S."
+category: staff
+---
+<div class="col span-2 empty"></div>
+<div class="col span-6">
+<h3>{{page.title}}</h3>
+<p>Dr. Ashley Kauffman is proud to become a new member of Abt and Willis Family Dentistry.  Dr. Kauffman completed her B.S. in Molecular and Cellular Biology at the University of Illinois in Urbana – Champaign. Dr. Kauffman earned her D.D.S. at the University of Illinois at Chicago, graduating in 2014. After completion of dental school, Dr. Kauffman moved on to finish a General Practice Residency in 2015 at Advocate Illinois Masonic Hospital in Chicago.  Her residency included extensive training in Invisalign, implant dentistry, trauma, oral surgery, general dentistry, medically compromised populations and special needs care.  Dr. Kauffman has continued her care for special needs patients one day a week at Misericordia Home in Chicago.  She is an active member of the Chicago Dental Society and serves as the Dinner Chair for the Northside Branch. Dr. Kauffman sits on the New Dentist Committee for the Illinois State Dental Society.  Her involvement with organized dentistry serves as a platform to help dentists provide the best care to our community.  While she’s not at the office, she enjoys travelling, exploring Chicago restaurants, and spending time with family and friends. Dr. Kauffman recently got married this July to her wonderful husband Tim in Cancun.</p>
+</div>
+<div class="col span-2">
+<img src="/assets/img/bios/AshleyGinsberg.jpg" alt="{{page.title}}" class="bio"/>
+</div>
+<div class="col span-2 empty"></div>

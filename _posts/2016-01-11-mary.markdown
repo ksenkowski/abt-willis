@@ -1,0 +1,14 @@
+---
+layout: default
+title:  "Mary – Office Manager"
+category: staff
+---
+<div class="col span-2 empty"></div>
+<div class="col span-6">
+<h3>{{page.title}}</h3>
+<p>Mary started working at the practice in 1991 as a chair side, dental assistant. In 2002 she began to spend much of her time in the front office and is now the go-to person for any questions or concerns you may have. Her primary goal is to ensure all of your needs are met from the start of your visit with us to when you leave and even between visits. Each day she looks forward to working with her co-workers to make your visit a pleasant one.</p>
+</div>
+<div class="col span-2">
+<img src="/assets/img/bios/mary.jpg" alt="{{page.title}}" class="bio"/>
+</div>
+<div class="col span-2 empty"></div>

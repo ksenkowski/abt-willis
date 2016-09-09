@@ -1,0 +1,14 @@
+---
+layout: default
+title:  "Terri – Dental Assistant"
+category: staff
+---
+<div class="col span-2 empty"></div>
+<div class="col span-6">
+<h3>{{page.title}}</h3>
+<p>Terri began working at our office in 1988, prior to that she worked as a cosmetologist. She enjoys spending time with the patients and assisting our dentists to do their best work. In her spare time she enjoys participating in dog agility classes and competitions throughout the United States with her husband and two dogs.</p>
+</div>
+<div class="col span-2">
+<img src="/assets/img/bios/terri.jpg" alt="{{page.title}}" class="bio"/>
+</div>
+<div class="col span-2 empty"></div>

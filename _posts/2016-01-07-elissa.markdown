@@ -1,0 +1,14 @@
+---
+layout: default
+title:  "Elissa – Receptionist"
+category: staff
+---
+<div class="col span-2 empty"></div>
+<div class="col span-6">
+<h3>{{page.title}}</h3>
+<p>Elissa worked at the Jesse Brown VA Medical Center in their dental department for over 30 years as a dental assistant. She brings a wealth of dental knowledge and experience to our practice.</p>
+</div>
+<div class="col span-2">
+<img src="/assets/img/bios/elissa.jpg" alt="{{page.title}}" class="bio"/>
+</div>
+<div class="col span-2 empty"></div>

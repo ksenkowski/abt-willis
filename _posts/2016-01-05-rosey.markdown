@@ -1,0 +1,14 @@
+---
+layout: default
+title:  "Rosey – Registered Dental Hygienist"
+category: staff
+---
+<div class="col span-2 empty"></div>
+<div class="col span-2">
+<img src="/assets/img/bios/rosey.jpg" alt="{{page.title}}" class="bio"/>
+</div>
+<div class="col span-6">
+<h3>{{page.title}}</h3>
+<p>Rosey has been working in the realm of dentistry since she was 19 years old. As a student of the dental hygiene program at Harper College, she was an assistant to Dr. Willis. She has developed many friendships with her patients and co-workers over the years, and enjoys not only her work, but socializing with patients when they visit. In her spare time she loves to travel and spend time with her extended family and friends all across the country.</p>
+</div>
+<div class="col span-2 empty"></div>

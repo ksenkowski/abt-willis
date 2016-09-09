@@ -1,0 +1,16 @@
+---
+layout: default
+title:  "Dr. Randall Hirsh, D.D.S."
+category: staff
+---
+<div class="col span-2 empty"></div>
+<div class="col span-2">
+<img src="/assets/img/bios/hirsh.jpg" alt="{{page.title}}" class="bio"/>
+</div>
+<div class="col span-6">
+<h3>{{page.title}}</h3>
+<p>Dr. Hirsh is an alumnus of the University of Illinois where he  earned his bachelor's degree in Psychology and Biology in 1978, followed by his dental degree earned at the College of Dentistry. He has practiced general dentistry for over 28 years and is a current member of the <a href="http://www.agd.org/" target="_blank">Academy of General Dentistry</a>.</p>
+					<p>His dedication to his patients does not end with maintaining their oral health. He strives to maintain a warm relationship with each and every patient, taking an interest in their lives and general health as well as keeping their teeth clean.</p>
+					<p>Dr. Hirsh has been married to his wife for 31 years and has a daughter enrolled at Loyola University Chicago. In his spare time he enjoys playing tennis, listen to a variety of music, and voraciously read. He enjoys reading so much that the staff couldn't resist getting him a shirt emblazoned with <em>"I Read, Therefore I am"</em>.</p>
+</div>
+<div class="col span-2 empty"></div>

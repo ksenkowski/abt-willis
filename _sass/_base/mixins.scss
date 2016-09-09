@@ -1,0 +1,122 @@
+/* ==========================================================================
+   CLEARFIX
+   ========================================================================== */
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+/* ==========================================================================
+   TRANSITION MIXIN
+   ========================================================================== */
+
+@mixin transition($transition...) {
+  -moz-transition:    $transition;
+  -o-transition:      $transition;
+  -webkit-transition: $transition;
+  transition:         $transition;
+}
+
+/* ==========================================================================
+   ROTATES MIXIN
+   ========================================================================== */
+
+@mixin rotates($deg) {
+  -moz-transform: rotate($deg);
+  -webkit-transform: rotate($deg);
+  -o-transform: rotate($deg);
+  -ms-transform: rotate($deg);
+  transform: rotate($deg);
+}
+
+/* ==========================================================================
+   PIXEL TO EM CONVERSION - http://vvv.tobiassjosten.net/css/px-to-em-with-sass/
+   ========================================================================== */
+@function em($px, $base: $base-font-size) {
+    @return ($px / $base) * 1em;
+}
+
+/* ==========================================================================
+   PIXEL TO REM CONVERSION - http://vvv.tobiassjosten.net/css/px-to-em-with-sass/
+   ========================================================================== */
+@function rem($px, $base: $base-font-size) {
+    @return ($px / $base) * 1rem;
+}
+
+/* ==========================================================================
+   LINK STYLE OVERRIDE
+   ========================================================================== */
+@mixin no-link-styles(){
+	text-decoration:none;
+
+	&:hover, &:focus, &:active{
+		text-decoration:none;
+		color:inherit;
+	}
+}
+
+/* ==========================================================================
+   REMOVE MARGIN AND PADDING
+   ========================================================================== */
+@mixin no-space(){
+	margin:0;
+	padding:0;
+}
+
+/* ==========================================================================
+   CSS TRIANGLE - http://blackbe.lt/useful-sass-mixins-css-trangle/
+   ========================================================================== */
+@mixin triangle($dir, $size, $color) {
+	border: $size transparent solid;
+	display:inline-block;
+	position:relative;
+
+	@if ($dir == "top" or $dir == "up") {
+		border-bottom-color: $color;
+	}
+	@else if ($dir == "right" or $dir == "after") {
+		border-left-color: $color;
+	}
+	@else if ($dir == "bottom" or $dir == "down") {
+		border-top-color: $color;
+	}
+	@else if ($dir == "left" or $dir == "before") {
+		border-right-color: $color;
+	}
+}
+/* ==========================================================================
+   BREAK POINTS
+   ========================================================================== */
+@mixin breakpoint($value){
+	@if $value == desktop{
+		@media only screen and (min-width: 65.000em){
+			@content;
+		}
+	}
+	@else if $value == landscape{
+		@media only screen and (min-width: 58.000em){
+			@content;
+		}
+	}
+	@else if $value == portrait{
+		@media only screen and (min-width: 48.000em){
+			@content;
+		}
+	}
+	@else if $value == mobile{
+		@media only screen and (min-width: 31.250em){
+			@content
+		}
+	}
+	@else if $value == oddball{
+		@media only screen and (min-width: 40.063em){
+			@content
+		}
+	}
+}

@@ -1,0 +1,14 @@
+---
+layout: default
+title:  "Alice – Registered Dental Hygienist"
+category: staff
+---
+<div class="col span-2 empty"></div>
+<div class="col span-2">
+<img src="/assets/img/bios/alice.jpg" alt="{{page.title}}" class="bio"/>
+</div>
+<div class="col span-6">
+<h3>{{page.title}}</h3>
+<p>Alice graduated Dental Hygiene program with honors at Harper College in 2011. She started to work at our office in January 2013.  She has two children. The whole family loves to travel to different Carribean islands and Europe to visit their family and friends. She loves meeting her patients, maintaining their beautiful smiles and perfecting their oral hygiene. In her spare time she enjoys spending time with her family, relaxes by watching movies, listening 80s music or reading.</p>
+</div>
+<div class="col span-2 empty"></div>

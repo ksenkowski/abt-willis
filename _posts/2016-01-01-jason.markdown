@@ -1,0 +1,14 @@
+---
+layout: default
+title:  "Jason – Dental Assistant"
+category: staff
+---
+<div class="col span-2 empty"></div>
+<div class="col span-2">
+<img src="/assets/img/bios/jason.jpg" alt="{{page.title}}" class="bio"/>
+</div>
+<div class="col span-6">
+<h3>{{page.title}}</h3>
+<p>Jason has been a dental assistant for 3 years. He enjoys his co-workers and patients. They make the job easy! He has 2 daughters, Madison &amp; Makayla. He enjoys spending time with his beautiful wife of 5 years, participating &amp; watching sports.</p>
+</div>
+<div class="col span-2 empty"></div>

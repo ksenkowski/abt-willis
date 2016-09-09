@@ -1,0 +1,201 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family:$primary-stack;
+	font-weight:normal;
+	font-size: 1em;
+    line-height: 1.25em;
+    font-weight: 300;
+	color:$black;
+	position:relative;
+	background:$white;
+}
+main{
+	margin:0 auto;
+	width:100%;
+}
+/* ==========================================================================
+   IMAGES & VIDEOS
+   ========================================================================== */
+
+img {
+    vertical-align: middle;
+	width:100%;
+	height:auto;
+}
+/* ==========================================================================
+   TYPOGRAPHY - My preference is for percentages when working with fonts. Everyone has their own thing.
+   ========================================================================== */
+p{
+	margin:0;
+	line-height:160%;
+	font-size:em(18px);
+}
+.small{
+	font-size:.675em;
+}
+.text-left {
+  text-align: left;
+}
+.text-uppercase{
+	text-transform:uppercase;
+}
+.text-right {
+  text-align: right;
+}
+.hidden{
+	display:none !important;
+}
+.invisible{
+	visibility:hidden !important;
+}
+.text-center {
+  text-align: center;
+}
+.warning-text{
+	color:$warning-color;
+}
+.error-text{
+	color:$error-color;
+}
+.success-text{
+	color:$success-color;
+}
+hr{
+	height:2px;
+	border-top:1px solid $white;
+}
+pre{
+	font-family:$pre;
+	font-size: 95%;
+    line-height: 140%;
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+}
+code{
+	padding:em(12px) em(12px) em(22px);
+	display:block;
+	font-family: $code;
+    font-size: 95%;
+    line-height: 140%;
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    background: $off-white;
+	border: 1px solid $charcoal;
+}
+sup{
+	text-transform:uppercase;
+}
+/* ==========================================================================
+   HEADING STYLES
+   ========================================================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family:$primary-stack;
+	font-weight:normal;
+	margin:0;
+	text-transform:uppercase;
+}
+h1{
+	font-size:em(100px);
+	line-height:94%;
+	color:$charcoal;
+	letter-spacing:0;
+	margin:em(11px) 0 0;
+}
+h2{
+	font-size:em(38px);
+	line-height:100%;
+}
+h3{
+	font-size:em(28px);
+	line-height:100%;
+}
+h4{
+	font-size:em(25px);
+	line-height:100%;
+}
+h5{
+	font-size:em(22px);
+	line-height:100%;
+}
+h6{
+	font-size:em(20px);
+	line-height:100%;
+}
+/* ==========================================================================
+   LIST STYLES
+   ========================================================================== */
+ul,
+ol {
+  	padding: 0;
+  	margin: 0px 0 10px 25px;
+	line-height:125%;
+	font-size:em(16px);
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+ul.spaced-list, ol.spaced-list {
+	margin-bottom:15px;
+	margin-top:15px;
+	ul.unspaced-list{
+		margin-top:em(20px);
+		margin-bottom:em(20px);
+		li{
+				margin-bottom:0;
+				margin-top:0;
+			}
+	}
+	li{
+		margin:8px 0px;
+		small{
+			line-height:140%;
+			display:block;
+			margin:-5px 0px 10px;
+		}
+	}
+}
+ul.unstyled, ol.unstyled {
+	margin-left: 0;
+	list-style: none;
+}
+ul.inline, ol.inline {
+	margin-left: 0;
+	list-style: none;
+	li{
+		display:inline-block;
+	}
+}
+ol.upper-roman{
+	list-style-type:upper-roman;
+}
+ol.lower-roman{
+	list-style-type:lower-roman;
+}
+/* ==========================================================================
+   LINKS - My broad preference is to have no text decoration on links and apply a dotted border on hover.
+   ========================================================================== */
+
+a {
+    color:$primary-color;
+	text-decoration:none;
+}
+a:hover{
+    color:$charcoal;
+}
+

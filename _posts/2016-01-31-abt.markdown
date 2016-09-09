@@ -1,0 +1,16 @@
+---
+layout: default
+title:  "Dr. Elliot Abt, D.D.S., M.S., M.S<small>c</small>."
+category: staff
+---
+<div class="col span-2 empty"></div>
+<div class="col span-6">
+<h3>{{page.title}}</h3>
+<p>Dr. Abt received a bachelor’s degree in molecular biology from the University of Wisconsin-Madison. He went on to graduate training and received a master’s degree in oral pathology and dental degree from the University of Illinois. Dr. Abt completed his dental residency training at Ravenswood and the University of Illinois Hospitals. From 1989-2004, Dr. Abt was the director of the dental residency programs at Ravenswood and Illinois Masonic Medical Center. He later went back to graduate school and received a master’s degree in evidence-based healthcare from Oxford University. Dr. Abt is an adjunct associate professor of oral medicine at the University of Illinois and directs the journal club for dental residents at Illinois Masonic Medical Center. He is on the Critical Review Panel of the American Dental Association (ADA), which maintains the Evidence-based Dentistry Website and mentors evidence reviewers in writing critical summaries of systematic reviews. Dr. Abt has published articles and book chapters on research design, statistical analysis, and critical appraisal of the dental literature and is a member-elect of the ADA Council on Scientific Affairs.</p>
+<p>In his spare time, Dr. Abt enjoys spending time with his family, playing guitar, and following the Chicago Blackhawks.</p>
+</div>
+<div class="col span-2">
+<img src="/assets/img/bios/abt.jpg" alt="{{page.title}}" class="bio"/>
+<p class="text-center"><a href="/downloads/abt-cv.pdf">Dr. Abt's CV</a></p>
+</div>
+<div class="col span-2 empty"></div>
