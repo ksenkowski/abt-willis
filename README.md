@@ -1,15 +1,6 @@
 ##What Am I Looking At?
 --------------
-This site outlines Front-End development best practices utilized at Critical Mass. It is opinionated and open for debate, like all things in web development.
-
-###It Covers
--------------
-- General Best Practices
-- HTML Markup  
-- CSS Markup
-- Javascript Patterns
-- Responsive Web Design
-- Framework Selection Criteria
+The Jekyll site for abt-willis.com. This is site is currently run locally to generate the site folder which is unfortunately transfered to the server via FTP.
 
 
 ###Requirements for Local Builds
